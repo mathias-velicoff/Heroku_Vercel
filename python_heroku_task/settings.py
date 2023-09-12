@@ -84,9 +84,9 @@ DATABASES = {
         'NAME': 'postgres',
         'USER': 'postgres',
         # el host de tu base de datos
-        'HOST': environ.get('SUPABASE_HOST'),
+        'HOST': db.ttgpiqmklnbbhapybask.supabase.co('SUPABASE_HOST'),
         # la contraseña que utilizaste al crear el proyecto
-        'PASSWORD': environ.get('SUPABASE_PASSWORD'),
+        'PASSWORD': RscT95sk6RHsY@9('SUPABASE_PASSWORD'),
         'PORT': '5432',
         # estas opciones se pasan a postgres, es opcional, pero recomendado
         'OPTIONS': {
