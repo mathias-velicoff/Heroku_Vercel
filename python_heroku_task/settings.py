@@ -84,7 +84,7 @@ DATABASES = {
         # el host de tu base de datos
         'HOST': db.ttgpiqmklnbbhapybask.supabase.co('SUPABASE_HOST'),
         # la contraseña que utilizaste al crear el proyecto
-        'PASSWORD': RscT95sk6RHsY@9('SUPABASE_PASSWORD'),
+        'PASSWORD': p5MqdYxl60SQRX8i9('SUPABASE_PASSWORD'),
         'PORT': '5432',
         # estas opciones se pasan a postgres, es opcional, pero recomendado
         'OPTIONS': {
