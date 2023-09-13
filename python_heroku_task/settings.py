@@ -11,12 +11,14 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 """
 
 from dotenv import load_dotenv
+load_dotenv()
 from os import environ, path
+
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
-load_dotenv()
+
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
@@ -90,7 +92,7 @@ DATABASES = {
         'OPTIONS': {
             'sslmode': 'verify-full',
             # el certificado que te de SUPABASE
-            'sslrootcert': Path.joinpath(BASE_DIR, 'prod-ca-2021.crt')
+            'sslrootcert': path.join(BASE_DIR, 'prod-ca-2021.crt')
         }
     }
 }
